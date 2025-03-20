@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background: url(https://github.com/AFigmentofyourImagination/DIGA3008A/blob/main/Images/background-desktop.jpg);
+    background: url('Images/background-desktop.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
