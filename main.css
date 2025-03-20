@@ -1,0 +1,84 @@
+header {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 218, 172);
+    background-size:contain;
+    font-family: "Emblema One", system-ui;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+body {
+    background: url(/Images/background-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Baskervville", serif;
+    font-size: 20px;
+}
+
+.navmain{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 128, 65 , 0.8);
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+    float: left;
+}
+
+.navmain li{
+    display: inline-block;
+    margin: 3px 0;
+    background: rgb(255, 128, 65);
+    border-radius: 7px;
+    width: 100px;
+}
+
+.navmain li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border-width: 100px;
+    padding: 5px;
+}
+
+.navmain :hover, .navmain :active{
+    background: rgb(255, 156, 107);
+    border-radius: 5px;
+    border-width: 100px;
+    padding: 6px;
+    width: 100px;
+}
+
+footer {
+    background: url(/Images/webpage.footer.jpg) no-repeat;
+    background-size:contain;
+    height: 50vh;
+    font-family: "Emblema One", system-ui;
+    text-align: center;
+    bottom: -1;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.homeTagline{
+    background: rgb(0, 218, 172);
+    text-align: center;
+}
+
+p{
+    background: rgb(0, 218, 172);
+    margin: 20px;
+    margin-left: 110px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 130px;
+}
