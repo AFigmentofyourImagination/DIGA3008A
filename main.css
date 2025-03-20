@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background: url(/Images/background-desktop.jpg) no-repeat;
+    background-image: url("/Images/background-desktop.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
