@@ -37,3 +37,12 @@
 footer{
     position: absolute;
 }
+
+body {
+    background: url('/Images/background-desktop.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Baskervville", serif;
+    font-size: 20px;
+}
