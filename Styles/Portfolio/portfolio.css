@@ -1,0 +1,48 @@
+h1{
+    font-family: "Emblema One", system-ui;
+    font-size: 40px;
+    margin-left: 160px;
+}
+
+article {
+    background: rgb(0, 218, 172);
+    border-radius: 15px;
+    margin-left: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.portfolio {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.portfolio :hover{
+    background: rgb(252, 185, 192);
+    border-radius: 20px;
+}
+
+#misc {
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    position: absolute;
+}
+
+#back-to-port {
+    background: rgb(255, 127, 141);
+    border-radius: 5px;
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}

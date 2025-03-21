@@ -1,0 +1,39 @@
+.design {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 135px;
+    background: rgb(255, 127, 141, 0.8);
+}
+
+.design li{
+    display: inline-block;
+    margin: 3px 0;
+    margin-left: 5px;
+    background: rgb(255, 127, 141);
+    border-radius: 7px;
+    width: 130px;
+}
+
+.design li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border-width: 130px;
+    padding: 5px;
+}
+
+.design :hover {
+    background: rgb(252, 185, 192);
+    border-radius: 5px;
+    border-width: 130px;
+    padding: 6px;
+    width: 130px;
+}
+
+footer{
+    position: absolute;
+}

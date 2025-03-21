@@ -1,0 +1,25 @@
+article {
+    margin: 130px;
+}
+
+.misc li {
+    display: inline-block;
+    margin: 3px 0;
+    background: rgb(255, 127, 141);
+    border-radius: 7px;
+    width: 910px;
+}
+
+.misc li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.misc :hover {
+    background: rgb(252, 185, 192);
+    border-radius: 5px;
+    border-width: 100px;
+    padding: 6px;
+    width: 900px;
+}

@@ -28,3 +28,13 @@ ul {
     display: inline-block;
     width: 200px;
 }
+
+#back-to-misc {
+    background: rgb(255, 127, 141);
+    border-radius: 5px;
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
