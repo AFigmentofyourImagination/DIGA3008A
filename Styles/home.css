@@ -7,13 +7,14 @@ h1{
     font-family: "Emblema One", system-ui;
     font-size: 40px;
 }
+
 h2{
     font-family: "Emblema One", system-ui;
     font-size: 30px;
     margin-left: 130px;
 }
 
-p{
+article {
     background: rgb(0, 218, 172);
     margin: 20px;
     margin-left: 110px;
