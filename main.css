@@ -18,9 +18,24 @@ body {
     font-size: 20px;
 }
 
+@media (orientation: landscape) {
+    body{
+        background-size: cover;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background: url('Images/Constant/background-mobile.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
 article {
     grid-column: 2;
     padding: 20px;
+    grid-area: main;
 }
 
 .navmain {
