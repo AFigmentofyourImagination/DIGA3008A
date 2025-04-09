@@ -6,15 +6,21 @@ header {
     font-size: 60px;
     text-align: center;
     padding: 0;
+    grid-column: 1 / -1;
+    grid-area: header;
 }
 
 body {
-    background: url('Images/background-desktop.jpg');
+    background: url('Images/Constant/background-desktop.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
     font-family: "Baskervville", serif;
     font-size: 20px;
+}
+
+article {
+    grid-column: 2;
+    padding: 20px;
 }
 
 .navmain {
@@ -26,6 +32,7 @@ body {
     border-radius: 10px;
     width: 100px;
     float: left;
+    grid-area: navbar;
 }
 
 .navmain li {
@@ -60,19 +67,31 @@ body {
 
 footer {
     /*background: rgb(127, 163, 211);*/
-    background: url('Images/webpage.footer.jpg') no-repeat;
+    background: url('Images/Constant/webpage.footer.jpg') no-repeat;
     background-size: cover;
     margin-bottom: 0;
     font-family: "Emblema One", system-ui;
-    font-size: 21.8px;
+    font-size: 21px;
     text-align: center;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    width: 100%;
+    grid-column: 1 / -1;
+    line-height: 0.1;
+    grid-area: footer;
 }
 
 .homeTagline {
     background: rgb(0, 218, 172);
     text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100fr 140px;
+    grid-template-columns: 120px 30fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "navbar tagline"
+    "navbar main"
+    "footer footer";
 }
