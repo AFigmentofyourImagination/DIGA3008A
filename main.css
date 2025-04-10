@@ -30,10 +30,10 @@ body {
         background: url('Images/Constant/background-mobile.jpg');
         background-size: cover;
         background-attachment: fixed;
-        font-size: 100px;
+        -webkit-text-size-adjust: 100%;
     }
     .header {
-        font-size: 500px;
+        -webkit-text-size-adjust: 100%;
     }
 }
 
