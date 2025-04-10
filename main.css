@@ -61,7 +61,6 @@ article {
     display: inline-block;
     border-radius: 10px;
     width: 100px;
-    float: left;
     grid-area: navbar;
 }
 
