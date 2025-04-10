@@ -25,13 +25,15 @@ body {
     }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 549px) and (orientation: portrait) {
     body {
         background: url('Images/Constant/background-mobile.jpg');
         background-size: cover;
         background-attachment: fixed;
+        font-size: 5px;
     }
     .header {
+        font-size: 10px;
     }
 }
 
