@@ -21,7 +21,6 @@ body {
 @media (min-width: 550px) and (orientation: landscape) {
     body{
         background-size: cover;
-        font-size: 20px;
     }
 }
 
@@ -30,10 +29,6 @@ body {
         background: url('Images/Constant/background-mobile.jpg');
         background-size: cover;
         background-attachment: fixed;
-        font-size-adjust: 100%;
-    }
-    .header {
-        font-size-adjust: 100%;
     }
 }
 
