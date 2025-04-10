@@ -1,3 +1,11 @@
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border: 5px solid rgb(88, 237, 206);
+    margin-left: 200px;
+}
+
 blockquote {
     font-weight: bold;
 }
@@ -5,8 +13,8 @@ blockquote {
 #back-to-blogs {
     background: rgb(255, 127, 141);
     border-radius: 5px;
-    margin: 30px;
-    margin-top: 2000px;
+    margin-left: 30px;
+    margin-top: 700px;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
@@ -15,11 +23,7 @@ blockquote {
     max-width: 60px;
 }
 
-.h-entry {
-    grid-column: 2;
-    padding: 20px;
-    grid-area: main;
-    border-radius: 20px;
+.main {
     background: rgb(0, 218, 172);
 }
 
