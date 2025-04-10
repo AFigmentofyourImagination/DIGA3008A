@@ -3,11 +3,21 @@
     background-color: rgb(0, 218, 172);
     background-size: contain;
     font-family: "Emblema One", system-ui;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    padding: 0;
+    padding: 25px;
     grid-column: 1 / -1;
     grid-area: header;
+}
+
+.tagline {
+    background: rgb(0, 218, 172);
+    font-family: "Emblema One", system-ui;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px;
+    grid-area: tagline;
 }
 
 body {
@@ -36,6 +46,7 @@ body {
     grid-column: 2;
     padding: 20px;
     grid-area: main;
+    border-radius: 20px;
 }
 
 article {
@@ -88,20 +99,15 @@ article {
     font-size: 21px;
     text-align: center;
     grid-column: 1 / -1;
-    line-height: 0.1;
+    line-height: 0.05;
     grid-area: footer;
-}
-
-.homeTagline {
-    background: rgb(0, 218, 172);
-    text-align: center;
-    grid-area: tagline;
 }
 
 .container {
     display: grid;
-    grid-template-rows: /*75px 100px 100fr 140px*/ 10% 10% 68% 12%;
-    grid-template-columns: 20% 80%;
+    grid-template-rows: /*75px 100px 100fr 140px*/ 
+        10% 10% 67% 13%;
+    grid-template-columns: 10% 90%;
     row-gap: 10px;
     column-gap: 10px;
     grid-template-areas: 

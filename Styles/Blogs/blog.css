@@ -6,6 +6,7 @@
     border-radius: 10px;
     width: 100px;
     background: rgb(255, 127, 141, 0.8);
+    grid-area: main;
 }
 
 .blogs li{
@@ -31,8 +32,4 @@
     border-width: 100px;
     padding: 6px;
     width: 100px;
-}
-
-footer{
-    position: absolute;
 }

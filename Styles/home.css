@@ -1,25 +1,8 @@
-.homeTagline {
+.main {
     background: rgb(0, 218, 172);
-    text-align: center;
-}
-
-h1{
-    font-family: "Emblema One", system-ui;
-    font-size: 40px;
-}
-
-h2{
-    font-family: "Emblema One", system-ui;
-    font-size: 30px;
-    margin-left: 50px;
-}
-
-article {
-    background: rgb(0, 218, 172);
-    
 }
 
 img {
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
 }
