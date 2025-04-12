@@ -1,9 +1,8 @@
 img {
-    width: 400px;
-    height: 300px;
     object-fit: contain;
     border: 5px solid rgb(88, 237, 206);
     margin-left: 200px;
+    max-width: 400px;
 }
 
 blockquote {
@@ -14,7 +13,7 @@ blockquote {
     background: rgb(255, 127, 141);
     border-radius: 5px;
     margin-left: 30px;
-    margin-top: 700px;
+    margin-top: 1500px;
     padding-left: 10px;
     padding-right: 10px;
     color: black;

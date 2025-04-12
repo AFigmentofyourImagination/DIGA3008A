@@ -9,14 +9,13 @@ img {
     background: rgb(255, 127, 141);
     border-radius: 5px;
     margin-left: 30px;
-    margin-top: 700px;
+    margin-top: 2750px;
     padding-left: 10px;
     padding-right: 10px;
     color: black;
     text-decoration: none;
     max-height: 50px;
     max-width: 60px;
-    grid-area: return;
 }
 
 .main {
