@@ -9,7 +9,7 @@
     grid-area: main;
 }
 
-.blogs li{
+.blogs li{ 
     display: inline-block;
     margin: 3px 0;
     background: rgb(255, 127, 141);

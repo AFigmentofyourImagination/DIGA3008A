@@ -1,10 +1,8 @@
-p {
-    margin: 160px;
-    font-size: 40px;
-}
-
-h1 {
-    font-family: "Emblema One", system-ui;
-    font-size: 40px;
-    margin-left: 140px;
+.main {
+    grid-column: 2;
+    padding: 20px;
+    grid-area: main;
+    border-radius: 20px;
+    background: rgb(0, 218, 172);
+    font-size: 50px;
 }

@@ -1,40 +1,26 @@
-h1{
-    font-family: "Emblema One", system-ui;
-    font-size: 40px;
-    margin-left: 160px;
-}
-
-article {
-    background: rgb(0, 218, 172);
-    border-radius: 15px;
-    margin-left: 110px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-}
-
 .portfolio {
     list-style-type: none;
     margin-left: 50px;
     padding: 0;
     display: inline-block;
     border-radius: 10px;
+    width: 1000px;
+    background: rgb(255, 127, 141, 0.8);
+    grid-area: main;
+}
+
+.portfolio li a{
+    font-size: 80px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .portfolio :hover{
     background: rgb(252, 185, 192);
-    border-radius: 20px;
-}
-
-#misc {
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-footer{
-    position: absolute;
+    border-radius: 10px;
+    border-width: 100px;
+    padding: 0px;
+    width: 1000px;
 }
 
 #back-to-port {
