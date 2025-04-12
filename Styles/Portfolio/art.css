@@ -1,18 +1,8 @@
-figure {
+image {
     object-fit: contain;
     border: 5px solid rgb(88, 237, 206);
     max-width: 400px;
-}
-
-image {
-    max-width: 400px;
     height: auto;
-}
-
-figcaption {
-    background-color: rgb(88, 237, 206);
-    padding: 5px;
-    text-align: center;
 }
 
 #back-to-port {
