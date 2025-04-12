@@ -1,0 +1,29 @@
+figure {
+    object-fit: contain;
+    border: 5px solid rgb(88, 237, 206);
+    max-width: 400px;
+}
+
+image {
+    max-width: 400px;
+    height: auto;
+}
+
+figcaption {
+    background-color: rgb(88, 237, 206);
+    padding: 5px;
+    text-align: center;
+}
+
+#back-to-port {
+    background: rgb(255, 127, 141);
+    border-radius: 5px;
+    margin: 30px;
+    margin-top: 1050px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    max-height: 50px;
+    max-width: 60px;
+}
