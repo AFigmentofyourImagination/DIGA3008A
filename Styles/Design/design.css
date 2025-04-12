@@ -6,6 +6,7 @@
     border-radius: 10px;
     width: 135px;
     background: rgb(255, 127, 141, 0.8);
+    grid-area: main;
 }
 
 .design li{
@@ -32,17 +33,4 @@
     border-width: 130px;
     padding: 6px;
     width: 130px;
-}
-
-footer{
-    position: absolute;
-}
-
-body {
-    background: url('/Images/background-desktop.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    font-family: "Baskervville", serif;
-    font-size: 20px;
 }

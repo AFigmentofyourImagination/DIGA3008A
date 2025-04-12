@@ -4,6 +4,7 @@ img {
     object-fit: contain;
     border: 5px solid rgb(88, 237, 206);
     margin-left: 200px;
+    max-width: 300px;
 }
 
 blockquote {
@@ -26,7 +27,7 @@ blockquote {
 .main {
     background: rgb(0, 218, 172);
 }
-
+/*
 .image {
     max-width: 300px;
-}
+}*/

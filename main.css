@@ -105,13 +105,13 @@ article {
 .container {
     display: grid;
     grid-template-rows: /*75px 100px 100fr 140px*/ 
-        10% 10% 67% 13%;
-    grid-template-columns: 10% 90%;
+        0.05fr 0.05fr 5fr 0.05fr;
+    grid-template-columns: 0.5fr 5fr;
     row-gap: 10px;
     column-gap: 10px;
     grid-template-areas: 
     "header header"
     "navbar tagline"
-    "navbar main"
+    "return main"
     "footer footer";
 }
