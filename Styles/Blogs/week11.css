@@ -1,0 +1,30 @@
+blockquote {
+    font-weight: bold;
+}
+
+.h-entry {
+    grid-column: 2;
+    padding: 20px;
+    grid-area: main;
+    border-radius: 20px;
+    background: rgb(0, 218, 172);
+}
+
+#backward {
+    position: fixed; /*fixed/sticky position*/
+    bottom: 20px; /*place the btn at the bottom of the page*/
+    left: 30px; /*place btn 30px from right*/
+    z-index: 99; /*make sure it does not overlap*/
+    border: none; /*remove borders*/
+    outline: none; /*remove outline*/
+    background-color: rgb(255, 127, 141);
+    color: black;
+    cursor: pointer; /*add mouse pointer on hover*/
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#backward:hover {
+    background-color: rgb(252, 185, 192);
+}
