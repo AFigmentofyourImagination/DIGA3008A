@@ -44,3 +44,39 @@ img {
     margin-left: 200px;
     max-width: 400px;
 }
+
+.essays {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+    background: rgb(255, 127, 141, 0.8);
+    grid-area: main;
+}
+
+.essays li{ 
+    display: inline-block;
+    margin: 3px 0;
+    background: rgb(255, 127, 141);
+    border-radius: 7px;
+    width: 100px;
+}
+
+.essays li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border-width: 100px;
+    padding: 5px;
+}
+
+.essays :hover{
+    background: rgb(252, 185, 192);
+    border-radius: 5px;
+    border-width: 100px;
+    padding: 6px;
+    width: 100px;
+}

@@ -4,17 +4,22 @@
     padding: 0;
     display: inline-block;
     border-radius: 10px;
-    width: 100px;
+    width: 1210px;
     background: rgb(255, 127, 141, 0.8);
     grid-area: main;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    cursor: pointer;
 }
 
 .blogs li{ 
     display: inline-block;
-    margin: 3px 0;
     background: rgb(255, 127, 141);
     border-radius: 7px;
-    width: 100px;
+    width: 600px;
+    height: 100px;
 }
 
 .blogs li a{
@@ -22,16 +27,14 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     border-radius: 7px;
-    border-width: 100px;
-    padding: 5px;
+    border-width: 600px;
 }
 
 .blogs :hover{
     background: rgb(252, 185, 192);
     border-radius: 5px;
-    border-width: 100px;
-    padding: 6px;
-    width: 100px;
+    border-width: 600px;
+    width: 600px;
 }
 
 #icon {
