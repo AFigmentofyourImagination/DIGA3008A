@@ -84,7 +84,11 @@ article {
     border-width: 100px;
 }
 
-.navmain :hover, .navmain :active {
+.navmain :hover {
+    background: rgb(255, 156, 107);
+}
+
+#busy {
     background: rgb(255, 156, 107);
 }
 

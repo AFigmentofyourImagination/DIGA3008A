@@ -1,12 +1,13 @@
-img {
-    object-fit: contain;
-    border: 5px solid rgb(88, 237, 206);
-    margin-left: 200px;
-    max-width: 400px;
-}
-
 blockquote {
     font-weight: bold;
+}
+
+.h-entry {
+    grid-column: 2;
+    padding: 20px;
+    grid-area: main;
+    border-radius: 20px;
+    background: rgb(0, 218, 172);
 }
 
 #backward {
@@ -28,10 +29,9 @@ blockquote {
     background-color: rgb(252, 185, 192);
 }
 
-.h-entry {
-    grid-column: 2;
-    padding: 20px;
-    grid-area: main;
-    border-radius: 20px;
-    background: rgb(0, 218, 172);
+img {
+    object-fit: contain;
+    border: 5px solid rgb(88, 237, 206);
+    margin-left: 200px;
+    max-width: 400px;
 }
