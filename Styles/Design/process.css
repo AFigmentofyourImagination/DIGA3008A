@@ -1,21 +1,27 @@
-img {
+.image {
     object-fit: contain;
     border: 5px solid rgb(88, 237, 206);
     margin-left: 200px;
     max-width: 600px;
 }
 
-#back-to-design {
-    background: rgb(255, 127, 141);
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-top: 3400px;
-    padding-left: 10px;
-    padding-right: 10px;
+#backward {
+    position: fixed; /*fixed/sticky position*/
+    bottom: 20px; /*place the btn at the bottom of the page*/
+    left: 30px; /*place btn 30px from right*/
+    z-index: 99; /*make sure it does not overlap*/
+    border: none; /*remove borders*/
+    outline: none; /*remove outline*/
+    background-color: rgb(255, 127, 141);
     color: black;
-    text-decoration: none;
-    max-height: 50px;
-    max-width: 60px;
+    cursor: pointer; /*add mouse pointer on hover*/
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#backward:hover {
+    background-color: rgb(252, 185, 192);
 }
 
 .main {

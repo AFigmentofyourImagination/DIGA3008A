@@ -4,32 +4,40 @@
     padding: 0;
     display: inline-block;
     border-radius: 10px;
-    width: 135px;
+    width: 1210px;
     background: rgb(255, 127, 141, 0.8);
     grid-area: main;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    cursor: pointer;
 }
 
 .design li{
     display: inline-block;
-    margin: 3px 0;
     background: rgb(255, 127, 141);
-    border-radius: 10px;
-    width: 130px;
+    border-radius: 7px;
+    width: 600px;
+    height: 100px;
 }
 
+
 .design li a {
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
-    border-width: 130px;
-    padding: 5px;
+    border-radius: 7px;
+    border-width: 600px;
 }
 
 .design :hover {
     background: rgb(252, 185, 192);
-    border-radius: 10px;
-    border-width: 130px;
-    padding: 6px;
-    width: 130px;
+    border-radius: 5px;
+    border-width: 600px;
+    width: 600px;
+}
+
+#designIcon {
+    width: 80px;
 }

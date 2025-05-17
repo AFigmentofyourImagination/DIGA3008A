@@ -12,8 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Emblema+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Emblema+One&display=swap"
       rel="stylesheet"
@@ -73,6 +72,7 @@
           </li>
         </ul>
       </nav>
+      <button onclick="topFunction()" id="bttBtn" title="Go to top">Top</button>
       <h1 class="tagline">Design Process</h1>
       <div class="main">
         <article>
@@ -106,16 +106,19 @@
           <h2>Style Guide:</h2>
           <h3>Interaction flowchart</h3>
           <img
+            class="image"
             src="../Images/flowchart.jpg"
             alt="A flowchart showing how interactions will flow."
           />
           <h3>User flow</h3>
           <img
+            class="image"
             src="../Images/user-flow.jpg"
             alt="A mind map of how the screens will look in a user flow."
           />
           <h3>Colour Palette:</h3>
           <img
+            class="image"
             src="../Images/colour-palette.jpg"
             alt="An image showing all the colours in the colour palette with their names, hexcodes, CMYK, and RGB."
           />
@@ -143,13 +146,14 @@
           <h2>Troubleshooting log</h2>
           <p>
             <img
+              class="image"
               src="../Images/Troubleshooting-Logs/Troubleshoot-log1.png"
               alt="Image showing a table"
             />
           </p>
         </article>
+        <button onclick="previous()" id="backward">Back</button>
       </div>
-      <a href="../Design/design.html" id="back-to-design">Back</a>
       <div class="footer">
         <footer>
           <p>Email: 2738617@students.wits.ac.za</p>
@@ -158,5 +162,6 @@
         </footer>
       </div>
     </div>
+    <script src="../Scripts/main.js"></script>
   </body>
 </html>
