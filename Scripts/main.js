@@ -1,7 +1,6 @@
 //console testing
 console.log("good evening");
 
-//trying things
 //get button
 let backtotopbutton = document.getElementById("bttBtn");
 

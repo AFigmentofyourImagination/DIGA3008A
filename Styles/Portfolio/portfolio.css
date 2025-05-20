@@ -17,6 +17,22 @@
     background-color: rgb(252, 185, 192);
 }
 
-.image {
-    width: 400px;
+.gallery {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.gallery img :hover {
+    transform: scale(0.8);
+    border-radius: 20px;
+    box-shadow: 32px rgb(0, 218, 172);
 }
