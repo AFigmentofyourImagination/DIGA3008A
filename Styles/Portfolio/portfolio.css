@@ -31,8 +31,35 @@
     cursor: pointer;
 }
 
-.gallery img :hover {
-    transform: scale(0.8);
+.gallery img:hover {
+    transform: scale(0.99);
     border-radius: 20px;
-    box-shadow: 32px rgb(0, 218, 172);
+    box-shadow: 0 40px 70px rgb(0, 218, 172);
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100%;
+}
+
+.full-img img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: rgb(252, 185, 192);
+    cursor: pointer;
 }
