@@ -22,6 +22,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-function previous() {
+/*function previous() {
     window.history.back();
-}
+}*/
