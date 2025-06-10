@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Essays</title>
+    <title>Reflection</title>
     <link rel="stylesheet" href="../main.css" />
     <link rel="stylesheet" href="../Styles/Essays/essays.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,9 +19,6 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <header>Elri's Internet Corner</header>
-      </div>
       <nav>
         <ul class="navmain">
           <li>
@@ -51,8 +48,8 @@
               />Design</a
             >
           </li>
-          <li id="busy">
-            <a class="navItem"
+          <li>
+            <a class="navItem" href="../Essays/essays.html"
               ><img
                 src="../Images/Icons/essay.png"
                 alt="Essay icon"
@@ -71,16 +68,26 @@
           </li>
         </ul>
       </nav>
-      <h1 class="tagline">This is the Essay page</h1>
-      <article class="essays">
-        <li><a href="./essay1.html">Essay 1: UX & UI Analysis</a></li>
-        <li>
-          <a href="./essay2.html"
-            >Essay 2: The Internet, geopolitics, and digital coloniality</a
-          >
-        </li>
-        <li><a href="./reflection.html">Reflection</a></li>
+      <button onclick="topFunction()" id="bttBtn" title="Got to top">
+        <img
+          src="../Images/Icons/arrowTop.png"
+          alt="Back To Top icon"
+          id="iconBTT"
+        />
+      </button>
+      <h1 class="tagline">Reflection</h1>
+      <article class="h-entry">
+        <div class="h-card">
+          <span class="p-name">Elri Greyling</span>
+        </div>
+        <p></p>
       </article>
+      <button onclick="window.location.href='essays.html'" id="backward">
+        <img src="/Images/Icons/essay.png" alt="Essays icon" />
+      </button>
+      <button onclick="window.location.href='essay2.html'" id="arrowPrev">
+        <img src="/Images/Icons/arrowPrev.png" alt="Previous" id="iconArrow" />
+      </button>
       <div class="footer">
         <footer>
           <p>
