@@ -26,57 +26,70 @@
   <body>
     <div class="container">
       <div class="header">
+        <img
+          src="/Images/Icons/navigation.png"
+          alt="menu"
+          class="menuIcon"
+          onclick="openMenu()"
+        />
+        <div class="navmain" id="menu">
+          <a class="menuIcon" href="#">
+            <img
+              src="/Images/Icons/navigationOpen.png"
+              alt="menu"
+              onclick="closeMenu()"
+            />
+          </a>
+          <ul class="navItems">
+            <li id="busy">
+              <a class="navItem"
+                ><img
+                  src="./Images/Icons/home.png"
+                  alt="Home icon"
+                  id="icon"
+                />Home</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../DIGA3008A/Blogs/blog.html"
+                ><img
+                  src="./Images/Icons/blog2.png"
+                  alt="Blog icon"
+                  id="icon"
+                />Blogs</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../DIGA3008A/Design/design.html"
+                ><img
+                  src="./Images/Icons/design.png"
+                  alt="Design icon"
+                  id="icon"
+                />Design</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../DIGA3008A/Essays/essays.html"
+                ><img
+                  src="./Images/Icons/essay.png"
+                  alt="Essay icon"
+                  id="icon"
+                />Essays</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../DIGA3008A/Portfolio/portfolio.html"
+                ><img
+                  src="./Images/Icons/portfolio.png"
+                  alt="Portfolio icon"
+                  id="icon"
+                />Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
         <header>Elri's Internet Corner</header>
       </div>
-      <nav>
-        <ul class="navmain">
-          <li id="busy">
-            <a class="navItem"
-              ><img
-                src="./Images/Icons/home.png"
-                alt="Home icon"
-                id="icon"
-              />Home</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../DIGA3008A/Blogs/blog.html"
-              ><img
-                src="./Images/Icons/blog2.png"
-                alt="Blog icon"
-                id="icon"
-              />Blogs</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../DIGA3008A/Design/design.html"
-              ><img
-                src="./Images/Icons/design.png"
-                alt="Design icon"
-                id="icon"
-              />Design</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../DIGA3008A/Essays/essays.html"
-              ><img
-                src="./Images/Icons/essay.png"
-                alt="Essay icon"
-                id="icon"
-              />Essays</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../DIGA3008A/Portfolio/portfolio.html"
-              ><img
-                src="./Images/Icons/portfolio.png"
-                alt="Portfolio icon"
-                id="icon"
-              />Portfolio</a
-            >
-          </li>
-        </ul>
-      </nav>
       <button onclick="topFunction()" id="bttBtn" title="Go to top">Top</button>
       <h1 class="tagline">Welcome to the Internet</h1>
       <div class="main">
@@ -96,7 +109,27 @@
             in my spare time, and I have a small black and white dog named
             James, he's turning 5 in September. I also have a younger brother
             that I love dearly, but I will not lend him anything I own. My
-            favourite musical artist is Taylor Swift.
+            favourite musical artist is Taylor Swift, and my current gaming
+            hyperfixation is Stardew Valley. I really like the simple things in
+            life, no matter how basic.
+          </p>
+          <p>
+            I am an artist, both with analogical and digital mediums. I am still
+            learning how to code, so I am not 100% confident in any coding
+            language. Many would consider me as a jack of all trades, master of
+            none. But isn't that better than being master of only one? The
+            reason I have so many skills but little mastery is because I am
+            unfortunately a perfectionist, and if I don't know how to do
+            something immediately, I tend to drop the skill. But I am working on
+            getting over the fear of failing!
+          </p>
+          <h2>Book Recommendations</h2>
+          <p>
+            <li>Pride and Prejudice by Jane Austen.</li>
+            <li>Dracula by Bram Stoker.</li>
+            <li>Seafire by Natalie C. Parker.</li>
+            <li>The Percy Jackson series by Rick Riordan.</li>
+            <li>The Warrior Heir by Cinda Williams Chima.</li>
           </p>
           <img src="Images/profile1.png" alt="Profile picture" />
         </article>
@@ -106,7 +139,7 @@
           <p>
             <img
               class="footerIcon"
-              src="../DIGA3008A/Images/Icons/email.png"
+              src="/Images/Icons/email.png"
               alt="Email Icon"
             />Email: 2738617@students.wits.ac.za
           </p>

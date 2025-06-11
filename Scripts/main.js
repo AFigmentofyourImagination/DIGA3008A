@@ -25,3 +25,16 @@ function topFunction() {
 /*function previous() {
     window.history.back();
 }*/
+
+//navbar
+var menu = document.getElementById("menu");
+
+//function to close navbar
+function closeMenu(){
+    menu.style.top = "-100vh";
+}
+
+//function to open navbar
+function openMenu(){
+    menu.style.top = "17%";
+}

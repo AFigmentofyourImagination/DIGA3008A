@@ -10,6 +10,61 @@
     grid-area: header;
 }
 
+.navmain {
+    padding: 0;
+    margin-left: 0;
+    background: rgb(255, 128, 65 , 0.8);
+    border-radius: 10px;
+    position: fixed;
+}
+
+.menuIcon {
+    position: fixed;
+    left: 60px;
+    background-color: rgb(255, 128, 65);
+    padding: 2px 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+.menuIcon :hover {
+    background: rgb(255, 156, 107);
+}
+
+.navItems {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin-top: 70px;
+}
+
+.navItems li {
+    padding: 10px 0;
+    margin: 10px 0;
+    background: rgb(255, 128, 65);
+    border-radius: 7px;
+}
+
+.navItems li a {
+    padding: 0px 1px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navItems :hover {
+    background: rgb(255, 156, 107);
+    transition: 0.2s;
+}
+
+#busy {
+    background: rgb(255, 156, 107);
+}
+
 .tagline {
     background: rgb(0, 218, 172);
     font-family: "Emblema One", system-ui;
@@ -59,47 +114,6 @@ article {
 
 #iconBTT {
     width: 30px;
-}
-
-
-
-.navmain {
-    list-style-type: none;
-    padding: 0;
-    background: rgb(255, 128, 65 , 0.8);
-    display: inline-block;
-    border-radius: 10px;
-    width: 100px;
-    grid-area: navbar;
-    position: fixed;
-}
-
-.navmain li {
-    display: inline-block;
-    margin: 3px 0;
-    background: rgb(255, 128, 65);
-    border-radius: 7px;
-    width: 100px;
-}
-
-.navmain li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    border-radius: 7px;
-    border-width: 100px;
-}
-
-.navmain :hover {
-    background: rgb(255, 156, 107);
-}
-
-#busy {
-    background: rgb(255, 156, 107);
-}
-
-.showMenu {
-    transform: translateY(0);
 }
 
 #bttBtn {
@@ -185,12 +199,11 @@ article {
     display: grid;
     grid-template-rows: /*75px 100px 100fr 140px*/ 
         0.05fr 0.05fr 5fr 0.05fr;
-    grid-template-columns: 0.5fr 5fr;
     row-gap: 10px;
     column-gap: 10px;
     grid-template-areas: 
-    "header header"
-    "navbar tagline"
-    "return main"
-    "footer footer";
+    "header"
+    "tagline"
+    "main"
+    "footer";
 }
