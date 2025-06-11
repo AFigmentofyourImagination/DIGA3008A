@@ -1,11 +1,9 @@
 blockquote {
     font-weight: bold;
-    font-size: 18px;
 }
 
 .h-entry {
-    font-size: 18px;
-    font-weight: 0;
+    grid-column: 2;
     padding: 20px;
     grid-area: main;
     border-radius: 20px;

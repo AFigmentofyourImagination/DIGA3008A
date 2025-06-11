@@ -21,63 +21,76 @@
   <body>
     <div class="container">
       <div class="header">
+        <img
+          src="../Images/Icons/navigation.png"
+          alt="menu"
+          class="menuIcon"
+          onclick="openMenu()"
+        />
+        <div class="navmain" id="menu">
+          <a class="menuIcon" href="#">
+            <img
+              src="../Images/Icons/navigationOpen.png"
+              alt="menu"
+              onclick="closeMenu()"
+            />
+          </a>
+          <ul class="navItems">
+            <li>
+              <a class="navItem" href="../index.html"
+                ><img
+                  src="../Images/Icons/home.png"
+                  alt="Home icon"
+                  id="icon"
+                />Home</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Blogs/blog.html"
+                ><img
+                  src="../Images/Icons/blog2.png"
+                  alt="Blog icon"
+                  id="icon"
+                />Blogs
+              </a>
+            </li>
+            <li id="busy">
+              <a class="navItem"
+                ><img
+                  src="../Images/Icons/designOpen.png"
+                  alt="Design icon"
+                  id="icon"
+                />Design</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Essays/essays.html"
+                ><img
+                  src="../Images/Icons/essay.png"
+                  alt="Essay icon"
+                  id="icon"
+                />Essays</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Portfolio/portfolio.html"
+                ><img
+                  src="../Images/Icons/portfolio.png"
+                  alt="Portfolio icon"
+                  id="icon"
+                />Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
         <header>Elri's Internet Corner</header>
       </div>
-      <nav>
-        <ul class="navmain">
-          <li>
-            <a class="navItem" href="../index.html"
-              ><img
-                src="../Images/Icons/home.png"
-                alt="Home icon"
-                id="icon"
-              />Home</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Blogs/blog.html"
-              ><img
-                src="../Images/Icons/blog2.png"
-                alt="Blog icon"
-                id="icon"
-              />Blogs</a
-            >
-          </li>
-          <li id="busy">
-            <a class="navItem"
-              ><img
-                src="../Images/Icons/design.png"
-                alt="Design icon"
-                id="icon"
-              />Design</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Essays/essays.html"
-              ><img
-                src="../Images/Icons/essay.png"
-                alt="Essay icon"
-                id="icon"
-              />Essays</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Portfolio/portfolio.html"
-              ><img
-                src="../Images/Icons/portfolio.png"
-                alt="Portfolio icon"
-                id="icon"
-              />Portfolio</a
-            >
-          </li>
-        </ul>
-      </nav>
       <h1 class="tagline">This is the design page.</h1>
       <ul class="design">
         <li>
           <a class="designItem" href="../Design/wireframes.html">
             <img
-              src="../Images/Icons/wireframe.png"
+              src="../Images/Icons/wireframeOpen.png"
               alt="wireframes icon"
               id="designIcon"
             />Wireframes</a
@@ -86,7 +99,7 @@
         <li>
           <a href="../Design/process.html">
             <img
-              src="../Images/Icons/process.png"
+              src="../Images/Icons/processOpen.png"
               alt="process icon"
               id="designIcon"
             />Process</a
@@ -95,7 +108,7 @@
         <li>
           <a href="../Design/references.html">
             <img
-              src="../Images/Icons/references.png"
+              src="../Images/Icons/referencesOpen.png"
               alt="references icon"
               id="designIcon"
             />References</a

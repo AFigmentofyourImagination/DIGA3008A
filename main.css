@@ -99,7 +99,6 @@ body {
 }
 
 .main {
-    grid-column: 2;
     padding: 20px;
     grid-area: main;
     border-radius: 20px;
@@ -205,7 +204,7 @@ article {
     column-gap: 10px;
     grid-template-areas: 
     "header header"
-    "navbar tagline"
-    "return main"
+    "empty tagline"
+    "empty main"
     "footer footer";
 }

@@ -20,57 +20,70 @@
   <body>
     <div class="container">
       <div class="header">
+        <img
+          src="../Images/Icons/navigation.png"
+          alt="menu"
+          class="menuIcon"
+          onclick="openMenu()"
+        />
+        <div class="navmain" id="menu">
+          <a class="menuIcon" href="#">
+            <img
+              src="../Images/Icons/navigationOpen.png"
+              alt="menu"
+              onclick="closeMenu()"
+            />
+          </a>
+          <ul class="navItems">
+            <li>
+              <a class="navItem" href="../index.html"
+                ><img
+                  src="../Images/Icons/home.png"
+                  alt="Home icon"
+                  id="icon"
+                />Home</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Blogs/blog.html"
+                ><img
+                  src="../Images/Icons/blog2.png"
+                  alt="Blog icon"
+                  id="icon"
+                />Blogs
+              </a>
+            </li>
+            <li>
+              <a class="navItem" href="../Design/design.html"
+                ><img
+                  src="../Images/Icons/design.png"
+                  alt="Design icon"
+                  id="icon"
+                />Design</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Essays/essays.html"
+                ><img
+                  src="../Images/Icons/essay.png"
+                  alt="Essay icon"
+                  id="icon"
+                />Essays</a
+              >
+            </li>
+            <li>
+              <a class="navItem" href="../Portfolio/portfolio.html"
+                ><img
+                  src="../Images/Icons/portfolio.png"
+                  alt="Portfolio icon"
+                  id="icon"
+                />Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
         <header>Elri's Internet Corner</header>
       </div>
-      <nav>
-        <ul class="navmain">
-          <li>
-            <a class="navItem" href="../index.html"
-              ><img
-                src="../Images/Icons/home.png"
-                alt="Home icon"
-                id="icon"
-              />Home</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Blogs/blog.html"
-              ><img
-                src="../Images/Icons/blog2.png"
-                alt="Blog icon"
-                id="icon"
-              />Blogs</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Design/design.html"
-              ><img
-                src="../Images/Icons/design.png"
-                alt="Design icon"
-                id="icon"
-              />Design</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Essays/essays.html"
-              ><img
-                src="../Images/Icons/essay.png"
-                alt="Essay icon"
-                id="icon"
-              />Essays</a
-            >
-          </li>
-          <li>
-            <a class="navItem" href="../Portfolio/portfolio.html"
-              ><img
-                src="../Images/Icons/portfolio.png"
-                alt="Portfolio icon"
-                id="icon"
-              />Portfolio</a
-            >
-          </li>
-        </ul>
-      </nav>
       <button onclick="topFunction()" id="bttBtn" title="Go to top">
         <img
           src="../Images/Icons/arrowTop.png"
@@ -170,13 +183,17 @@
         </p>
       </article>
       <button onclick="window.location.href='blog.html'" id="backward">
-        <img src="/Images/Icons/blog2.png" alt="Blog icon" />
+        <img src="../Images/Icons/blog2.png" alt="Blog icon" />
       </button>
       <button onclick="window.location.href='week10.html'" id="arrowNext">
-        <img src="/Images/Icons/arrowNext.png" alt="Next" id="iconArrow" />
+        <img src="../Images/Icons/arrowNext.png" alt="Next" id="iconArrow" />
       </button>
       <button onclick="window.location.href='week7.html'" id="arrowPrev">
-        <img src="/Images/Icons/arrowPrev.png" alt="Previous" id="iconArrow" />
+        <img
+          src="../Images/Icons/arrowPrev.png"
+          alt="Previous"
+          id="iconArrow"
+        />
       </button>
       <div class="footer">
         <footer>
