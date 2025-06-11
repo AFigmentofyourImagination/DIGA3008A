@@ -31,10 +31,18 @@ var menu = document.getElementById("menu");
 
 //function to close navbar
 function closeMenu(){
-    menu.style.top = "-100vh";
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
 }
 
 //function to open navbar
 function openMenu(){
-    menu.style.top = "17%";
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
 }

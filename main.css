@@ -11,6 +11,7 @@
 }
 
 .navmain {
+    display: none;
     padding: 0;
     margin-left: 0;
     background: rgb(255, 128, 65 , 0.8);
@@ -199,11 +200,12 @@ article {
     display: grid;
     grid-template-rows: /*75px 100px 100fr 140px*/ 
         0.05fr 0.05fr 5fr 0.05fr;
+    grid-template-columns: 0.5fr 5fr;
     row-gap: 10px;
     column-gap: 10px;
     grid-template-areas: 
-    "header"
-    "tagline"
-    "main"
-    "footer";
+    "header header"
+    "navbar tagline"
+    "return main"
+    "footer footer";
 }
